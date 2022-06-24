@@ -23,14 +23,13 @@ button {
 }
 
 main {
-    padding: 70px;
+    padding: 30px;
 }
 
 section {
     font-size: 2rem;
     padding: .8rem;
     text-align: center;
-    background-color: white;
 }
 
 select {
@@ -41,12 +40,12 @@ select {
 #minefield-wrapper {
     width: 900px;
     height: 900px;
-    background-color: rgb(74, 185, 185);
     margin: 0 auto;
     border: 2px solid black;
 }
 
-#minefield-wrapper.disabled {
+#minefield-wrapper.disabled,
+#score-wrapper.disabled {
     display: none;
 }
 
@@ -83,6 +82,11 @@ select {
     background-color: blue;
 }
 
-.box.bomb {
+.bomb {
     background-color: red;
+}
+
+p#score {
+    font-size: 2.5rem;
+    font-weight: bold;
 }
