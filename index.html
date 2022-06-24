@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Minefield</title>
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+<body>
+
+    <header>
+
+        <h1>Minefield</h1>
+        
+        <label for="difficulty-selector">Select a difficulty</label>
+        
+        <select name="difficulty" id="difficulty-selector">
+            <option value="0">Easy</option>
+            <option value="1">Medium</option>
+            <option value="2">Hard</option>
+        </select>
+
+    </header>
+
+    <section>
+        <button id="play-button">Play!</button>
+
+    </section>
+
+
+    <main>
+        <div id="minefield-wrapper" class="disabled"></div>
+    </main>
+
+    <script src="./script/main.js"></script>
+</body>
+</html>
